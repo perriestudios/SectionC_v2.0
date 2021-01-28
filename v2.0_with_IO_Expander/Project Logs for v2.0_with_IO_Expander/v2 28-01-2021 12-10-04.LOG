@@ -1,0 +1,20 @@
+Change Component Designator: OldDesignator=24v Relay NewDesignator=K1
+Added Component: Designator=D6(M7 1N4007 SMA)
+Add component (AddParameter): Name = "Manufacturer"; Value = "Sangdest Microelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "1N4007FLTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.10000, 10=0.06600, 100=0.03120, 500=0.01848, 1000=0.01241 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "2517"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1655-1N4007FLCT-ND"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=PGND Pin=D6-1
+Added Pin To Net: NetName=NetK1_3 Pin=D6-2
+Change Net Name : Old Net Name=NetK1_3 New Net Name=NetD6_2
+Added Member To Class: ClassName=v2.0_with_IO_Expander Member=Component D6 1N4007
+Added Member To Class: ClassName=v2.0_with_IO_Expander Member=Component R11 68R
+Added Member To Class: ClassName=v2.0_with_IO_Expander Member=Component R12 10k
+Added Member To Class: ClassName=v2.0_with_IO_Expander Member=Component R14 10k
+Added Member To Class: ClassName=v2.0_with_IO_Expander Member=Component R16 10k
+Added Member To Class: ClassName=v2.0_with_IO_Expander Member=Component R17 10k
+Added Member To Class: ClassName=v2.0_with_IO_Expander Member=Component R18 10k
+Added Room: Name=v2.0_with_IO_Expander
